@@ -2,6 +2,15 @@
 layout: default
 ---
 
+{% assign items = site.pages %}
+{% for item in items %}
+  {% if item.path == page.path %}
+    {% assign prev_index = forloop.index0 | minus: 1 %}{% if items[prev_index].title %}{% assign prev = items[prev_index] %}{% endif %}
+    {% assign next_index = forloop.index0 | plus: 1  %}{% if items[next_index].title %}{% assign next = items[next_index] %}{% endif %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
 <nav class="navbar sticky-top navbar-expand-xl navbar-light justify-content-between">
   <a class="navbar-brand h6" href="{{ "/" | relative_url }}">{{ site.title | truncate: 15 }}</a>
   <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#modal">
