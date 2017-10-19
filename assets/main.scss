@@ -3,12 +3,17 @@
 
 @import "minima";
 
+h1 {
+  font-size: large;
+  margin: 3em 0 2em;
+}
+h2, h3, h4, h5, h6 {
+  font-size: medium;
+}
 article {
 }
 article h1 {
-  font-size: large;
   text-align: center;
-  margin: 3em 0 2em;
 }
 article p {
 }

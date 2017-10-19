@@ -1,0 +1,14 @@
+{% assign items = site.pages %}
+{% for item in items %}
+  {% if item.path == page.path %}
+    {% assign prev_index = forloop.index0 | minus: 1 %}{% if items[prev_index].title %}{% assign prev = items[prev_index] %}{% endif %}
+    {% assign next_index = forloop.index0 | plus: 1  %}{% if items[next_index].title %}{% assign next = items[next_index] %}{% endif %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% if prev %}
+<link rel="prev" href="{{ prev.url | relative_url }}">
+{% endif %}
+{% if next %}
+<link rel="next" href="{{ next.url | relative_url }}">
+{% endif %}
