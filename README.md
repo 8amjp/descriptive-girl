@@ -3,7 +3,7 @@
 
 平和で退屈な日常に突如舞い込んだ謎。ソースコードに隠された謎に立ち向かうのは、T高校新聞部・茨目奈乃（いばらめなの）と情報処理部の二人。
 
-![技術系ミステリー]https://img.shields.io/badge/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB-%E6%8A%80%E8%A1%93%E7%B3%BB%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC-brightgreen.svg)
+![技術系ミステリー](https://img.shields.io/badge/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB-%E6%8A%80%E8%A1%93%E7%B3%BB%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC-brightgreen.svg)
 ![短編小説](https://img.shields.io/badge/%E5%BD%A2%E5%BC%8F-%E7%9F%AD%E7%B7%A8%E5%B0%8F%E8%AA%AC-orange.svg)
 ![休載中](https://img.shields.io/badge/%E5%9F%B7%E7%AD%86%E7%8A%B6%E6%B3%81-%E4%BC%91%E8%BC%89%E4%B8%AD-red.svg)
 
